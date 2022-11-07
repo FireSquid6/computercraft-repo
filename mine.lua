@@ -333,7 +333,7 @@ function isOk()
 	local okLevel = 0
 	while ok do
 		local currentLevel = turtle.getFuelLevel()
-		if currentLevel < 100 then --check fuel
+		if false == true then --check fuel
 			print("[isOk]: Fuel Level Low!")
 			if turtle.getItemCount(16) > 0 then
 				print("[isOk]: Refueling!")
