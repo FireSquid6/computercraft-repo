@@ -330,7 +330,7 @@ function findMaxLevel()
 end
 
 function isOk()
-	local okLevel = findMaxLevel() / 2 + 10
+	local okLevel = 0
 	while ok do
 		local currentLevel = turtle.getFuelLevel()
 		if currentLevel < 100 then --check fuel
