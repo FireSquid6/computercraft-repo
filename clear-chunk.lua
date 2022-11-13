@@ -45,7 +45,7 @@ function Loop()
 
     -- go back to the start
     turtle.turnLeft()
-    while not turtle.detect() do
+    for i = 0, 15 do
         turtle.forward()
     end
     turtle.turnLeft()
