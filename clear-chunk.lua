@@ -46,6 +46,7 @@ function Loop()
     -- go back to the start
     turtle.turnLeft()
     for i = 0, 15 do
+        turtle.dig()
         turtle.forward()
     end
     turtle.turnLeft()
